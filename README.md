@@ -20,8 +20,8 @@
 
 # Links
 
-- [Solution URL]()
-- [Live site URL]()
+- [Solution URL](https://github.com/adetutudeborah/responsive-dashboard)
+- [Live site URL](https://responsive-dashboard-beta.vercel.app/)
 
 # My process
 
@@ -58,7 +58,7 @@ npm run dev
 
 
 # Deployment
-The Responsive dashboard design solution has been deployed on `Vercel`, and it can be accessed at the following URL: 
+The Responsive dashboard design solution has been deployed on `Vercel`, and it can be accessed at the following URL: https://responsive-dashboard-beta.vercel.app/
 
 # Author
 
