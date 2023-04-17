@@ -7,7 +7,7 @@ import Main from '../../Components/Main/Main';
 function Dashboard() {
 
   return (
-    <div className='grid grid-cols-[272px,1fr] grid-rows-[200px,1fr] w-screen h-screen'>
+    <div className='grid grid-cols-[272px,1fr] grid-rows-[221px,1fr] w-screen h-screen'>
         <div className='bg-[#ffff] col-span-2 row-start-1'>
            <Header />
         </div>
