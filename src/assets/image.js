@@ -15,7 +15,15 @@ import board from './header-icons/board.png';
 import listview from './header-icons/listview.png';
 import powerview from './header-icons/power.png';
 import plusview from './header-icons/plus-view.png'
-
+import designone from './main-icons/design1.png';
+import designtwo from './main-icons/design2.png';
+import designthree from './main-icons/design3.png';
+import threedot from './main-icons/three-dot.png';
+import comment from './main-icons/comment.png';
+import link from './main-icons/link.png';
+import mainprofilestack from './main-icons/mainprofilestack.png';
+import progress from './main-icons/progress.png';
+import addtask from './main-icons/add-task.png';
 
 const images = {
   lightning,
@@ -35,6 +43,15 @@ const images = {
   listview,
   powerview,
   plusview,
+  designone,
+  designtwo,
+  designthree,
+  threedot,
+  comment,
+  link,
+  mainprofilestack,
+  progress,
+  addtask,
 };
 
 export default images;
