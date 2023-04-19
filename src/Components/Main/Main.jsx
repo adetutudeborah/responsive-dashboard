@@ -9,6 +9,8 @@ function Main() {
         
         <div className='grid grid-cols-[1fr,1fr,1fr] grid-rows-[1fr] gap-x-10 w-full h-full'>
 
+            {/* First design */}
+
             <div className='col-start-1'>
 
                  {/* Task update */}
@@ -38,7 +40,7 @@ function Main() {
                        </div>
                     </div>
 
-                    <div className='flex flex-row justify-between pt-4'>
+                    <div className='flex flex-row justify-between pt-4 pb-2'>
                         <div className=''>
                           <img src={image.progress} alt='progress-icon' className='inline pr-2 pb-1'/>
                           <h4 className='text-[#B8B9BD] inline text-sm'>Progress</h4>
@@ -48,8 +50,14 @@ function Main() {
                          <p className='text-black font-medium text-sm mt-1'>2/10</p>
                        </div>
                     </div>
+                  
+                    {/* Progress bar */}
+                    <div className='bg-[#EBEBEB] rounded-3xl w-full'>
+                        <div className='bg-[#EBEBEB] rounded-3xl w-[100%] h-2'></div>
+                    </div>
+                    {/* Progress bar */}
 
-                    <div className='flex flex-row justify-between pt-4'>
+                    <div className='flex flex-row justify-between pt-2'>
                        
                         <div className=''>  
                           <span className='text-[#B8B9BD] inline text-sm mr-4'><img src={image.comment} alt='comment-icon' className='inline mr-1'/>7</span>
@@ -80,7 +88,7 @@ function Main() {
                        </div>
                     </div>
 
-                    <div className='flex flex-row justify-between pt-4'>
+                    <div className='flex flex-row justify-between pt-4 pb-2'>
                         <div className=''>
                           <img src={image.progress} alt='progress-icon' className='inline pr-2 pb-1'/>
                           <h4 className='text-[#B8B9BD] inline text-sm'>Progress</h4>
@@ -91,7 +99,13 @@ function Main() {
                        </div>
                     </div>
 
-                    <div className='flex flex-row justify-between pt-4'>
+                     {/* Progress bar */}
+                     <div className='bg-[#EBEBEB] rounded-3xl w-full'>
+                        <div className='bg-[#EBEBEB] rounded-3xl w-[100%] h-2'></div>
+                    </div>
+                    {/* Progress bar */}
+
+                    <div className='flex flex-row justify-between pt-2'>
                        
                         <div className=''>  
                           <span className='text-[#B8B9BD] inline text-sm mr-4'><img src={image.comment} alt='comment-icon' className='inline mr-1'/>7</span>
@@ -144,7 +158,7 @@ function Main() {
                        </div>
                     </div>
 
-                    <div className='flex flex-row justify-between pt-4'>
+                    <div className='flex flex-row justify-between pt-4 pb-2'>
                         <div className=''>
                           <img src={image.progress} alt='progress-icon' className='inline pr-2 pb-1'/>
                           <h4 className='text-[#B8B9BD] inline text-sm'>Progress</h4>
@@ -155,7 +169,14 @@ function Main() {
                        </div>
                     </div>
 
-                    <div className='flex flex-row justify-between pt-4'>
+                    {/* Progress bar */}
+
+                    <div class="w-full bg-[#EBEBEB] rounded-3xl h-2">
+                          <div class="bg-[#FF5F37] h-2 rounded-3xl w-[75%]"></div>
+                     </div>
+                    {/* Progress bar */}
+
+                    <div className='flex flex-row justify-between pt-2'>
                        
                         <div className=''>  
                           <span className='text-[#B8B9BD] inline text-sm mr-4'><img src={image.comment} alt='comment-icon' className='inline mr-1'/>7</span>
@@ -205,7 +226,7 @@ function Main() {
                        </div>
                     </div>
 
-                    <div className='flex flex-row justify-between pt-4'>
+                    <div className='flex flex-row justify-between pt-4 pb-2'>
                         <div className=''>
                           <img src={image.progress} alt='progress-icon' className='inline pr-2 pb-1'/>
                           <h4 className='text-[#B8B9BD] inline text-sm'>Progress</h4>
@@ -216,7 +237,13 @@ function Main() {
                        </div>
                     </div>
 
-                    <div className='flex flex-row justify-between pt-4'>
+                      {/* Progress bar */}
+                    <div className='bg-[#EBEBEB] rounded-3xl w-full'>
+                           <div className='bg-[#8BC488] rounded-3xl w-[100%] h-2'></div>
+                    </div>
+                    {/* Progress bar */}
+
+                    <div className='flex flex-row justify-between pt-2'>
                        
                         <div className=''>  
                           <span className='text-[#B8B9BD] inline text-sm mr-4'><img src={image.comment} alt='comment-icon' className='inline mr-1'/>7</span>
@@ -251,7 +278,7 @@ function Main() {
                        </div>
                     </div>
 
-                    <div className='flex flex-row justify-between pt-4'>
+                    <div className='flex flex-row justify-between pt-4 pb-2'>
                         <div className=''>
                           <img src={image.progress} alt='progress-icon' className='inline pr-2 pb-1'/>
                           <h4 className='text-[#B8B9BD] inline text-sm'>Progress</h4>
@@ -262,7 +289,13 @@ function Main() {
                        </div>
                     </div>
 
-                    <div className='flex flex-row justify-between pt-4'>
+                    {/* Progress bar */}
+                    <div className='bg-[#EBEBEB] rounded-3xl w-full'>
+                           <div className='bg-[#8BC488] rounded-3xl w-[100%] h-2'></div>
+                    </div>
+                    {/* Progress bar */}
+
+                    <div className='flex flex-row justify-between pt-2'>
                        
                         <div className=''>  
                           <span className='text-[#B8B9BD] inline text-sm mr-4'><img src={image.comment} alt='comment-icon' className='inline mr-1'/>7</span>
