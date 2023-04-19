@@ -20,7 +20,7 @@ function Header() {
 
           </div>
 
-          <div className='mt-14 flex flex-row justify-between'>
+          <div className='mt-12 flex flex-row justify-between'>
 
               <div className='flex flex-row'>
                   <div>
