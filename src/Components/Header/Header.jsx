@@ -5,7 +5,7 @@ import image from "../../assets/image";
 function Header() {
 
   return (
-    <div className='mt-10 mb-6 mx-16'> 
+    <div className='font-sans mt-10 mb-6 mx-16'> 
 
           <div className='flex flex-row justify-between'>
 

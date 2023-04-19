@@ -5,7 +5,7 @@ import image from "../../assets/image";
 function Sidebar() {
 
   return (
-    <div className='py-9 px-7 flex flex-col justify-between'>
+    <div className='py-9 px-7 flex flex-col justify-between font-sans'>
 
         <div className='mb-auto'>
 

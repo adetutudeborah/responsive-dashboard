@@ -5,19 +5,19 @@ import image from "../../assets/image";
 function Main() {
 
   return (
-    <div className='my-16 mx-16'>
+    <div className='font-sans my-16 mx-16'>
         
         <div className='grid grid-cols-[1fr,1fr,1fr] grid-rows-[1fr] gap-x-10 w-full h-full'>
 
             {/* First design */}
 
-            <div className='col-start-1'>
+            <div className='col-start-1'> 
 
                  {/* Task update */}
 
                 <div className='bg-[#F4F6F8] flex flex-row justify-between py-2 px-4 rounded-lg'>
                     <p className='text-[#858A93] font-medium text-base pt-2'>To Do</p>
-                    <p className='bg-black py-2 px-4 rounded text-white text-lg'>3</p>
+                    <p className='bg-black py-1.5 px-4 rounded text-white text-lg font-medium'>3</p>
                 </div>
 
                 {/* First task */}
@@ -135,7 +135,7 @@ function Main() {
 
                 <div className='bg-[#F4F6F8] flex flex-row justify-between py-2 px-4 rounded-lg'>
                     <p className='text-[#858A93] font-medium text-base pt-2'>In progress</p>
-                    <p className='bg-black py-2 px-4 rounded text-white text-lg'>1</p>
+                    <p className='bg-black py-1.5 px-4 rounded text-white text-lg font-medium'>1</p>
                 </div>
 
                  {/* First task */}
@@ -207,7 +207,7 @@ function Main() {
 
                 <div className='bg-[#F4F6F8] flex flex-row justify-between py-2 px-4 rounded-lg'>
                     <p className='text-[#858A93] font-medium text-base pt-2'>Completed</p>
-                    <p className='bg-black py-2 px-4 rounded text-white text-lg'>2</p>
+                    <p className='bg-black py-1.5 px-4 rounded text-white text-lg font-medium'>2</p>
                 </div>
 
                 {/* Second task */}
