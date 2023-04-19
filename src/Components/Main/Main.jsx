@@ -5,7 +5,7 @@ import image from "../../assets/image";
 function Main() {
 
   return (
-    <div className='font-sans my-16 mx-16'>
+    <div className='font-sans my-10 mx-16'>
         
         <div className='grid grid-cols-[1fr,1fr,1fr] grid-rows-[1fr] gap-x-10 w-full h-full'>
 

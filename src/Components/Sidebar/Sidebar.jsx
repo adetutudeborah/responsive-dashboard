@@ -5,14 +5,16 @@ import image from "../../assets/image";
 function Sidebar() {
 
   return (
-    <div className='py-9 px-7 flex flex-col justify-between font-sans'>
+    <div className='py-9 px-7 font-sans h-[100%]'>
 
-        <div className='mb-auto'>
+        <div className='h-[96%]'> 
 
-            <button className='bg-[#45269c] text-white py-3 px-8 rounded-lg text-center inline'>
-              <img src={image.lightning} alt='lightning-icon' className='inline pr-2 text-sm'/>
-              Welcome Keerthi
-            </button>
+          <div>
+              <button className='bg-[#45269c] text-white py-3 px-6 rounded-lg text-center inline font-normal text-base'>
+                <img src={image.lightning} alt='lightning-icon' className='inline pr-2 text-sm'/>
+                Welcome Keerthi
+              </button>
+          </div>
 
           <div className='py-10'>
                 <div className='pb-6'>
@@ -48,18 +50,18 @@ function Sidebar() {
 
                 <div className='pb-6 pt-6 opacity-50 border-t-2 border-white'>
                   <img src={image.profile} alt='profile-icon' className='inline pr-3 pb-1'/>
-                  <h4 className='text-white inline text-sm'>Profile</h4>
+                  <h4 className='text-white inline text-sm font-normal'>Profile</h4>
                 </div>
 
                 <div className='pb-6 opacity-50'>
-                  <img src={image.logout} alt='logout-icon' className='inline pr-3 pb-1'/>
-                  <h4 className='text-white inline text-sm'>Logout</h4>
+                  <img src={image.logout} alt='logout-icon' className='inline pr-2 pb-1'/>
+                  <h4 className='text-white inline text-sm font-normal'>Logout</h4>
                 </div>
           </div>
         </div>
 
-        <div className='order-last justify-end'>
-          <button className='bg-[#703EFE] text-white py-3 px-9 rounded-lg text-center inline uppercase font-normal tracking-wide'>
+        <div className='h-[4%]'>
+          <button className='bg-[#703EFE] text-white text-base py-3 px-7 rounded-lg text-center inline uppercase font-normal tracking-wide'>
             <img src={image.plus} alt='plus-icon' className='inline pr-2 pb-1 text-sm text-white'/>
              New Project
           </button>
