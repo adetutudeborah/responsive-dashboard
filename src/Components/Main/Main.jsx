@@ -1,5 +1,4 @@
 import React from 'react'
-import './Main.css'
 import image from "../../assets/image";
 
 function Main() {

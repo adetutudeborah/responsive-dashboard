@@ -22,6 +22,7 @@
 
 - [Solution URL](https://github.com/adetutudeborah/responsive-dashboard)
 - [Live site URL](https://responsive-dashboard-beta.vercel.app/)
+- [Figma Design](https://www.figma.com/file/ecAKL1petCMenoHjh0QhaW/%F0%9F%98%B5-Responsive-dashboard-design-using-Auto-Layout-(Community)-(Copy)?node-id=0%3A1&t=G3pOAd8z0hsd79X1-1)
 
 # My process
 
@@ -54,8 +55,37 @@ npm install
 ```
 npm run dev
 ```
-- Open `http://localhost:5173/` in your browser to view the app
+- Open `http://localhost:5174/` in your browser to view the app
 
+# Setting up Tailwind CSS with Vite
+
+Install Tailwind CSS and other dependencies in the terminal after creating the React app with Vite using the following steps;
+
+- Input this command to install the tailwindcss, postcss and autoprefixer dependencies
+```
+npm install -D tailwindcss postcss autoprefixer
+```
+- Enter this command to generate tailwind.config.cjs andpostcss.config.cjs configuration files.
+```
+npx tailwindcss init -p
+```
+- Add the paths to all of your template files in your tailwind.config.cjs file.
+```
+"./index.html",
+
+"./src/**/*.{js,ts,jsx,tsx}",
+```
+- Add Tailwind Directives to Your CSS
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+- Start the development server by running
+```
+npm run dev
+```
+- Open `http://localhost:5174/` in your browser to view the app
 
 # Deployment
 The Responsive dashboard design solution has been deployed on `Vercel`, and it can be accessed at the following URL: https://responsive-dashboard-beta.vercel.app/
