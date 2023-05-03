@@ -4,13 +4,13 @@ import image from "../../assets/image";
 function Main() {
 
   return (
-    <div className='font-sans my-12 mx-16'>
+    <div className='font-sans my-12 mx-16 md:mx-3 md:mb-6'> 
         
-        <div className='grid grid-cols-[1fr,1fr,1fr] grid-rows-[1fr] gap-x-10 w-full h-full'>
+        <div className='grid grid-cols-[1fr,1fr,1fr] grid-rows-[1fr] gap-x-10 w-full h-full lg:grid-cols-[1fr] lg:grid-rows[1fr,1fr,1fr]'>
 
             {/* First design */}
 
-            <div className='col-start-1'> 
+            <div className='col-start-1 lg:col-start-1 lg:row-start-1 md:pb-12 lg:pb-12'> 
 
                  {/* Task update */}
 
@@ -130,7 +130,7 @@ function Main() {
 
             {/* Second design */}
 
-            <div className='col-start-2'>
+            <div className='col-start-2 lg:col-start-1 lg:row-start-2 md:pb-12 lg:pb-12'>
 
                 <div className='bg-[#F4F6F8] flex flex-row justify-between py-2 px-4 rounded-lg'>
                     <p className='text-[#858A93] font-medium text-base pt-2'>In progress</p>
@@ -202,7 +202,7 @@ function Main() {
 
             {/* Third design */}
           
-            <div className='col-start-3'>
+            <div className='col-start-3 lg:col-start-1 lg:row-start-3 md:pb-12 lg:pb-12'>
 
                 <div className='bg-[#F4F6F8] flex flex-row justify-between py-2 px-4 rounded-lg'>
                     <p className='text-[#858A93] font-medium text-base pt-2'>Completed</p>
