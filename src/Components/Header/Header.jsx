@@ -11,7 +11,7 @@ function Header() {
           <div className='flex flex-row justify-between md:flex-none sm:flex-none'>
 
               <div className=''>
-                  <h1 className='text-black font-semibold text-4xl pb-2 md:text-2xl md:mr-8'>New Campaign Run</h1>
+                  <h1 className='text-black font-semibold text-4xl pb-2 md:text-2xl'>New Campaign Run</h1>
                   <p className='text-[#B8B9BD] font-normal text-sm md:text-xs'>A new campaign launch work for brand new feature in May month</p>
               </div>
 
