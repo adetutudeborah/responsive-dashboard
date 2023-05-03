@@ -25,7 +25,7 @@ function Header() {
 
               <div className='flex flex-row'>
                   <div>
-                      <div className=''> <img src={image.profilestack} alt="" className='rounded-full md:max-w-[60px]'/> </div>
+                      <div className=''> <img src={image.profilestack} alt="" className='rounded-full md:max-w-[80px]'/> </div>
                   </div>
 
                   <div className='mt-1 pl-3'>
