@@ -29,7 +29,7 @@ function Header() {
                   </div>
 
                   <div className='mt-1 pl-3'>
-                    <p className='text-[#B8B9BD] font-normal text-sm md:text-xs'>8 member</p> 
+                    <p className='text-[#B8B9BD] font-normal text-sm md:text-xs md:pt-1 lg:pt-1'>8 member</p> 
                   </div>
               </div>
 
